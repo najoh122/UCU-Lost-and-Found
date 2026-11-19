@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import LostFoundScene from "../LostFoundScene";
 import { api } from '../api.js';
 import { CATEGORIES, LOCATIONS } from '../constants.js';
 import ItemCard from '../components/ItemCard.jsx';
@@ -33,6 +34,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <LostFoundScene/>
 
       <section aria-labelledby="filters-title" className="panel">
         <h2 id="filters-title" className="sr-only">Search and filter</h2>
