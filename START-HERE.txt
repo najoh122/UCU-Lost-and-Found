@@ -1,0 +1,16 @@
+UCU LOST AND FOUND - FRONTEND (READY TO RUN)
+
+1. Right-click the ZIP file -> Extract All. Move the extracted folder to a simple place such as C:\Projects
+   (avoid OneDrive/Desktop folders, they slow down installs).
+2. Open the folder and DOUBLE-CLICK  START-DEMO.bat
+   (If Windows warns you, click "More info" -> "Run anyway".)
+3. Wait 1-3 minutes the first time. Your browser opens by itself.
+
+Demo accounts (password for all: password123)
+  Student:        namusoke@students.ucu.ac.ug
+  Other student:  okello@students.ucu.ac.ug
+  Administrator:  admin@ucu.ac.ug
+
+To open in VS Code: File -> Open Folder -> choose the folder that contains package.json.
+To start again later, double-click START-DEMO.bat again.
+Real backend mode: start the backend, then run  npm run dev  in the VS Code terminal.
